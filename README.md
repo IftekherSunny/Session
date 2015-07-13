@@ -1,6 +1,8 @@
 ## Session
 
-Session helps you to manage your session easily.
+[![Total Downloads](https://poser.pugx.org/sun/session/downloads)](https://packagist.org/packages/sun/session) [![Latest Stable Version](https://poser.pugx.org/sun/session/v/stable)](https://packagist.org/packages/sun/session)  [![Latest Unstable Version](https://poser.pugx.org/sun/session/v/unstable)](https://packagist.org/packages/sun/session) [![License](https://poser.pugx.org/sun/session/license)](https://packagist.org/packages/sun/session)
+
+Session helps you to manage your session data easily.
 
 ## Installation Process
 
@@ -13,7 +15,7 @@ Just copy Session folder somewhere into your project directory. Then include ses
 Session is also available via Composer/Packagist.
 
 ```
- composer require sun\Session
+ composer require sun/session
 ```
 
 ## All Methods
@@ -77,7 +79,7 @@ $session->pop('login');
 ###### To shift session data from session array
 
 ```php
-$session->pop('login');
+$session->shift('login');
 ```
 
 ###### To destroy all session data
