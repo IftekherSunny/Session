@@ -15,7 +15,7 @@ Just copy Session folder somewhere into your project directory. Then include ses
 Session is also available via Composer/Packagist.
 
 ```
- composer require sun\Session
+ composer require sun/Session
 ```
 
 ## All Methods
